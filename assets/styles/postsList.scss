@@ -1,0 +1,29 @@
+.post-item{
+    position: relative;    
+    .pic{
+        position: absolute;
+        width:80px;
+        display: inline-block;
+        height: 100%;
+        top: 0px;
+        img{
+            width: 70px;
+            border-radius: 6px;
+        }
+    }
+    .content{
+        width:calc(100% - 80px);
+        display: inline-block;
+        float: right;
+    }
+    .post-footer{
+        border-top: 1px solid rgba(0,0,0,0.05);
+        text-align:right;
+        padding-top: 10px;
+        a{
+            display: inline-block;
+            margin-left: 20px;
+            color:$main-color;
+        }
+    }
+}

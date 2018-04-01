@@ -1,0 +1,46 @@
+.navbar{
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+    nav{
+        max-width:700px;
+        margin: 0 auto;
+    }
+    .form-inline{
+        display: inline-block;
+        float: right;
+        margin-top: 10px;
+    }
+}
+
+.nav-items{
+    padding: 20px 0px;
+    margin: 0;
+    list-style:none;
+    display: inline-block;
+    li{
+        display: inline;
+        margin-right: 25px;
+        a{
+            color: $main-color;
+            font-weight: 700;
+        }
+    }
+}
+
+@media(max-width:768px){
+    .navbar{
+        text-align: center;
+        .nav-items{
+            padding-bottom: 10px;
+            li{
+                margin: 0px 10px;
+            }
+        }
+        .form-inline{
+            margin-left:-20px;
+            float: none;
+            padding: 10px 0px;
+        }
+    }
+}
